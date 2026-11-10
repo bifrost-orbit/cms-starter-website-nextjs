@@ -5,8 +5,9 @@ A ready-made website for [CMS Orbit](https://bifrostorbit.com/products/cms-orbit
 It draws every component the templates use, so editors can rearrange pages without waiting for a developer. When you want your own look, change the styles or swap in your own components one at a time.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fbifrost-orbit%2Fcms-starter-website-nextjs&env=CMS_API_URL,CMS_PUBLIC_KEY,CMS_DEFAULT_REGION&envDescription=The%20API%20address%2C%20public%20key%20and%20region%20from%20CMS%20Orbit&envLink=https%3A%2F%2Fdocs.bifrostorbit.com%2Fcms%2Fdevelopers%2Fquickstart-nextjs%2F&project-name=website&repository-name=website)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/bifrost-orbit/cms-starter-website-nextjs?quickstart=1)
 
-The button asks for `CMS_API_URL`, `CMS_PUBLIC_KEY` and `CMS_DEFAULT_REGION`. Add `CMS_PREVIEW_KEY` for previews and `CMS_WEBHOOK_SECRET` for refresh on publish in the project's settings afterwards.
+The Vercel button asks for `CMS_API_URL`, `CMS_PUBLIC_KEY` and `CMS_DEFAULT_REGION`. Add `CMS_PREVIEW_KEY` for previews and `CMS_WEBHOOK_SECRET` for refresh on publish in the project's settings afterwards.
 
 ## Set up
 
