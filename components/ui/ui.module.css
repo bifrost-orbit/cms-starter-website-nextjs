@@ -1,0 +1,24 @@
+.stars {
+  display: inline-flex;
+  color: var(--accent);
+  font-size: 1rem;
+  line-height: 1;
+  letter-spacing: 0.12em;
+}
+
+.starsLarge {
+  font-size: 1.4rem;
+}
+
+.starsTrack {
+  position: relative;
+  color: color-mix(in srgb, var(--text) 18%, transparent);
+}
+
+.starsFill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  overflow: hidden;
+  color: var(--accent);
+  white-space: nowrap;
+}

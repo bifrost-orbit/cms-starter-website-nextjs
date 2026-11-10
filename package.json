@@ -1,0 +1,32 @@
+{
+  "name": "cms-starter-website-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "cms:types": "cms-orbit generate --include references --out cms/types.ts"
+  },
+  "dependencies": {
+    "@bifrost-orbit-cms/sdk": "^0.13.1",
+    "lucide-react": "^1.71.0",
+    "next": "16.4.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.5",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
